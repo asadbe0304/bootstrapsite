@@ -29,7 +29,7 @@
             </div>
         </div>
     </header>
-    
+
     <!-- header section end -->
     <!-- main section start  -->
     <main class="d-flex justify-content-between">
@@ -41,19 +41,17 @@
                             <h3 class="fw-bolder">
                                 Filter
                             </h3>
-                            <form>
+                            <form action="https://echo.htmlacademy.ru" method="post">
                                 <div class="mb-3">
                                     <label for="example" class="form-label fw-bold">Search</label>
-                                    <input type="search" class="form-control rounded-1
-                            " id="example" >
+                                    <input type="search" class="form-control rounded-1" placeholder="Falonchi" name="search" id="example">
                                 </div>
                                 <div class="row d-flex ju   stify-content-between align-items-end">
                                     <div class="col-6">
                                         <div class="mb-3 m-0">
-                                            <label for="FormControlInput"
-                                                class="form-label fw-bold">Price</label>
-                                            <input type="number" class="form-control rounded-1"
-                                                id="FormControlInput" placeholder="From">
+                                            <label for="FormControlInput" class="form-label fw-bold">Price</label>
+                                            <input type="number" class="form-control rounded-1" id="FormControlInput"
+                                                placeholder="From" name="from">
                                         </div>
                                     </div>
                                     <div class="col-6">
@@ -72,14 +70,14 @@
                                     <option value="3">Three</option>
                                 </select>
                                 <label class="mt-2 fw-bold" for="name">Sort by</label>
-                                    <select id="name" class="form-select mt-2 rounded-1" aria-label="All">
-                                        <option selected disabled>Name</option>
-                                        <option value="1">Asadbek</option>
-                                        <option value="2">Anvarjon</option>
-                                        <option value="3">Abbosxon</option>
-                                    </select>
-                                
-                                <button class="btn btn-primary col-12 mt-3">
+                                <select id="name" class="form-select mt-2 rounded-1" aria-label="All">
+                                    <option selected disabled>Name</option>
+                                    <option value="1">Asadbek</option>
+                                    <option value="2">Anvarjon</option>
+                                    <option value="3">Abbosxon</option>
+                                </select>
+
+                                <button type="submit" class="btn btn-primary col-12 mt-3">
                                     Filter
                                 </button>
                             </form>
@@ -132,7 +130,7 @@
                         </div>
                     </div>
                     <div class="col-3 d-flex justify-content-end">
-                        <p class="fw-bold"> 
+                        <p class="fw-bold">
                             Count: 4
                         </p>
                     </div>
